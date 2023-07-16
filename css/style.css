@@ -24,14 +24,3 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-
-.span {
-  color: var(--navyblue, #2e2f42);
-  font-family: Raleway;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 21px;
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
-}
