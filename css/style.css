@@ -29,7 +29,6 @@
 }
 .header-menu-link {
   color: var(--navyblue, #2e2f42);
-  /* Body Medium */
   font-family: Roboto;
   font-size: 16px;
   font-weight: 500;
@@ -44,9 +43,10 @@
   color: var(--slate, #434455);
   font-family: Roboto;
   font-size: 16px;
+  font-style: normal;
   font-weight: 400;
-  line-height: 1.5; /* 150% */
-  letter-spacing: -0.02em; /* 0.32/16 */
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
 }
 .address-list-link:hover {
   color: #4d5ae5;
