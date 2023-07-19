@@ -1,5 +1,5 @@
 /* Main Pager */
-.body {
+.main-pages {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: var(--background-color-white);
@@ -36,6 +36,10 @@
   line-height: 1.5; /* 150% */
   letter-spacing: -0.02em;
 }
+.header-menu-link:hover {
+  color: #4d5ae5;
+}
+
 .address-list-link {
   color: var(--slate, #434455);
   font-family: Roboto;
@@ -44,25 +48,51 @@
   line-height: 1.5; /* 150% */
   letter-spacing: -0.02em; /* 0.32/16 */
 }
-/*    Main hero      */
+.address-list-link:hover {
+  color: #4d5ae5;
+}
+/*    Main Section      */
 .hero {
   background: var(--navyblue, #2e2f42);
 }
 .hero-title {
+  color: var(--white, #fff);
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
   line-height: 1.07; /* 60/56 */
   letter-spacing: -0.02em;
+  text-align: center;
 }
 .hero-button {
-  color: var(--white, #fff);
-  font-family: inherit;
+  color: #fff;
+  cursor: pointer;
+  background: #4d5ae5;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.5; /* 24/16 */
-  letter-spacing: -0.04em; /* 0.64/16 */
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
+.sectiom-title {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.11; /* 111.111% */
+  letter-spacing: -0.02em; /* 0.72/36 */
+  text-transform: capitalize;
+  text-align: center;
+}
+.team-title {
+  color: var(--navyblue, #2e2f42);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11; /* 111.111% */
+  letter-spacing: -0.02em;
+  text-transform: capitalize;
+}
+
 /*    Next       */
 .link {
   text-decoration: none;
