@@ -98,8 +98,6 @@
   letter-spacing: -0.02em;
   text-transform: capitalize;
 }
-.section-team-work {
-}
 .section-team-title {
   background: var(--white, #fff);
   display: inline-flex;
