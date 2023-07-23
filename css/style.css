@@ -1,6 +1,11 @@
 /* Main Pager */
 .body {
   background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: var(--background-color-white);
+  text-decoration: none;
+  margin: 0;
 }
 :root {
   --color-iris: #4d5ae5;
@@ -100,9 +105,6 @@
 /*    Our Team       */
 .section-team {
   background: var(--cloud, #f4f4fd);
-  width: 1440px;
-  height: 732px;
-  flex-shrink: 0;
 }
 .team-title {
   color: var(--navyblue, #2e2f42);
