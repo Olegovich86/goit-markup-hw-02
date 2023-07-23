@@ -84,6 +84,12 @@
   text-align: center;
 }
 /*    Our Team       */
+.section-team {
+  background: var(--cloud, #f4f4fd);
+  width: 1440px;
+  height: 732px;
+  flex-shrink: 0;
+}
 .team-title {
   color: var(--navyblue, #2e2f42);
   text-align: center;
@@ -94,11 +100,18 @@
   text-transform: capitalize;
 }
 .section-team-title {
-  background: var(--white, #fff);
+  display: inline-flex;
+  padding-bottom: 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
   border-radius: 0px 0px 4px 4px;
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
+  background: var(--white, #fff);
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
-
 /*    Next      */
 .link {
   text-decoration: none;
