@@ -62,7 +62,10 @@
 .header-menu-link:focus {
   color: #404bbf;
 }
-.address-list {
+.header {
+  font-style: normal;
+}
+.address {
   font-style: normal;
 }
 .address-list-link {
