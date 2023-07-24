@@ -26,16 +26,15 @@
   color: #434455;
   background-color: var(--background-color-white);
   text-decoration: none;
-  margin: 0;
 }
 /*  Header  */
 .header-logo {
   color: var(--iris, #4d5ae5);
-  font-family: "Raleway" sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17; /* 116.667% */
-  letter-spacing: -0.03em;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
@@ -53,7 +52,7 @@
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5; /* 150% */
-  letter-spacing: -0.02em;
+  letter-spacing: 0.02em;
 }
 .header-menu-link:hover {
   color: #4d5ae5;
@@ -101,7 +100,7 @@
   font-style: normal;
   font-weight: 700;
   line-height: 1.11;
-  letter-spacing: -0.02em;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
