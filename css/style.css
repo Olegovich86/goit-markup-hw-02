@@ -1,6 +1,6 @@
 /* Main Pager */
 .body {
-  background-color: #ffffff;
+  background: #fff;
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: var(--background-color-white);
@@ -110,14 +110,14 @@
 }
 /*    Our Team       */
 .section-team {
-  background: var(--cloud, #f4f4fd);
+  background: #f4f4fd;
 }
 .team-title {
-  color: var(--navyblue, #2e2f42);
+  color: #2e2f42;
   text-align: center;
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.11;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
@@ -127,7 +127,10 @@
   padding-bottom: 0px;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+}
+.title-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 /*    Footer       */
 .footer {
