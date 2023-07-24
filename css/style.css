@@ -24,7 +24,7 @@
 .main-pages {
   font-family: "Roboto", sans-serif;
   color: #434455;
-  background-color: var(--background-color-white);
+  background-color: white;
   text-decoration: none;
 }
 /*  Header  */
