@@ -221,11 +221,11 @@
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.button-all :hover {
+.button-all:hover {
   color: #ffffff;
   background-color: #404bbf;
 }
-.button-all :focus {
+.button-all:focus {
   color: #ffffff;
   background-color: #404bbf;
 }
