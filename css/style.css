@@ -1,6 +1,6 @@
 /* Main Pager */
 .body {
-  background: #fff;
+  background-color: #ffffff;
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: var(--background-color-white);
@@ -29,7 +29,7 @@
 }
 /*  Header  */
 .header-logo {
-  color: var(--iris, #4d5ae5);
+  color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
@@ -39,7 +39,7 @@
 }
 
 .header-logo-studio {
-  color: var(--navyblue, #2e2f42);
+  color: #2e2f42;
   font-family: Raleway;
   font-size: 18px;
   font-weight: 800;
@@ -47,7 +47,7 @@
   letter-spacing: 0.03em;
 }
 .header-menu-link {
-  color: var(--navyblue, #2e2f42);
+  color: #2e2f42;
   font-family: Roboto;
   font-size: 16px;
   font-weight: 500;
@@ -64,23 +64,22 @@
   font-style: normal;
 }
 .address-list-link {
-  color: var(--slate, #434455);
+  color: #434455;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  font-style: normal;
 }
 .address-list-link:hover {
   color: #4d5ae5;
 }
 /*    Main Section      */
 .hero {
-  background: var(--navyblue, #2e2f42);
+  background: #2e2f42;
 }
 .hero-title {
-  color: var(--white, #fff);
+  color: #fff;
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
@@ -122,7 +121,7 @@
   text-transform: capitalize;
 }
 .section-team-title {
-  background: var(--white, #fff);
+  background: #fff;
   display: inline-flex;
   padding-bottom: 0px;
   flex-direction: column;
@@ -134,10 +133,10 @@
 }
 /*    Footer       */
 .footer {
-  background: var(--navyblue, #2e2f42);
+  background: #2e2f42;
 }
 .footer-logo {
-  color: var(--iris, #4d5ae5);
+  color: var #4d5ae5;
   font-family: Raleway;
   font-size: 18px;
   font-style: normal;
@@ -147,7 +146,7 @@
   text-transform: uppercase;
 }
 .footer-logo-studio {
-  color: var(--cloud, #f4f4fd);
+  color: #f4f4fd;
   font-family: Raleway;
   font-size: 18px;
   font-style: normal;
@@ -157,7 +156,7 @@
   text-transform: uppercase;
 }
 .footer-text {
-  color: var(--cloud, #f4f4fd);
+  color: #f4f4fd;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px; /* 150% */
@@ -174,7 +173,7 @@
 /*   Portfolio     */
 
 .button-all {
-  color: var(--iris, #4d5ae5);
+  color: #4d5ae5;
   text-align: center;
   font-size: 16px;
   font-weight: 500;
