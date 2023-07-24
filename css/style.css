@@ -106,6 +106,12 @@
   line-height: 1.5;
   letter-spacing: 0.04em;
 }
+.hero-button:hover {
+  background-color: #404bbf;
+}
+.hero-button:focus {
+  background-color: #404bbf;
+}
 .solution-wort-title {
   font-weight: 500;
   font-size: 20px;
