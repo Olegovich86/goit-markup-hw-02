@@ -72,7 +72,11 @@
   letter-spacing: 0.02em;
   font-style: normal;
 }
+
 .address-list-link:hover {
+  color: #4d5ae5;
+}
+.address-list-link:focus {
   color: #4d5ae5;
 }
 /*    Main Section      */
@@ -196,6 +200,8 @@
   line-height: 24px; /* 150% */
   letter-spacing: 0.04em;
   font-family: "Roboto", sans-serif;
+  background-color: #f4f4fd;
+  cursor: pointer;
 }
 .section-button-list {
   font-family: "Roboto", sans-serif;
@@ -204,6 +210,14 @@
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+.button-all :hover {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+.button-all :focus {
+  color: #ffffff;
+  background-color: #404bbf;
 }
 .info-name {
   color: #2e2f42;
