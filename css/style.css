@@ -70,9 +70,11 @@
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  font-style: normal;
 }
 .address-list-link:hover {
   color: #4d5ae5;
+  font-style: normal;
 }
 /*    Main Section      */
 .hero {
