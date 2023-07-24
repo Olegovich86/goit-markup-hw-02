@@ -31,11 +31,12 @@
 /*  Header  */
 .header-logo {
   color: var(--iris, #4d5ae5);
-  font-family: Raleway;
+  font-family: "Raleway" sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17; /* 116.667% */
-  letter-spacing: 0.03em;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
 }
 
 .header-logo-studio {
@@ -57,10 +58,11 @@
 .header-menu-link:hover {
   color: #4d5ae5;
 }
-
+.address {
+  font-style: normal;
+}
 .address-list-link {
   color: var(--slate, #434455);
-  font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -92,7 +94,7 @@
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.04em;
+  letter-spacing: -0.04em;
 }
 .section-title {
   font-size: 36px;
@@ -135,7 +137,7 @@
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 21px; /* 116.667% */
+  line-height: 1.16;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
@@ -145,7 +147,7 @@
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 21px; /* 116.667% */
+  line-height: 1.16;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
@@ -172,7 +174,7 @@
   font-size: 16px;
   font-weight: 500;
   line-height: 24px; /* 150% */
-  letter-spacing: 0.64px;
+  letter-spacing: -0.04em;
 }
 .section-button-list {
   font-family: "Roboto", sans-serif;
