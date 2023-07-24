@@ -62,6 +62,9 @@
 .header-menu-link:focus {
   color: #404bbf;
 }
+.header {
+  font-style: normal;
+}
 .address {
   font-style: normal;
 }
