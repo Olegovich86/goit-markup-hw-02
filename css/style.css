@@ -44,7 +44,7 @@
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17; /* 116.667% */
-  letter-spacing: -0.03em;
+  letter-spacing: 0.03em;
 }
 .header-menu-link {
   color: var(--navyblue, #2e2f42);
@@ -55,7 +55,10 @@
   letter-spacing: 0.02em;
 }
 .header-menu-link:hover {
-  color: #4d5ae5;
+  color: #404bbf;
+}
+.header-menu-link:focus {
+  color: #404bbf;
 }
 .address {
   font-style: normal;
@@ -65,8 +68,8 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; /* 150% */
-  letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   font-style: normal;
 }
 .address-list-link:hover {
@@ -82,7 +85,7 @@
   font-style: normal;
   font-weight: 700;
   line-height: 1.07; /* 60/56 */
-  letter-spacing: -0.02em;
+  letter-spacing: 0.02em;
   text-align: center;
 }
 .hero-button {
@@ -93,7 +96,7 @@
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: -0.04em;
+  letter-spacing: 0.04em;
 }
 .section-title {
   font-size: 36px;
@@ -115,7 +118,7 @@
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
-  letter-spacing: -0.02em;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 .section-team-title {
@@ -173,7 +176,7 @@
   font-size: 16px;
   font-weight: 500;
   line-height: 24px; /* 150% */
-  letter-spacing: -0.04em;
+  letter-spacing: 0.04em;
 }
 .section-button-list {
   font-family: "Roboto", sans-serif;
