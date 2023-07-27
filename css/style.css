@@ -64,7 +64,9 @@
 .header {
   font-style: normal;
 }
-
+.address {
+  font-style: normal;
+}
 .address-list-link {
   color: #434455;
   font-size: 16px;
