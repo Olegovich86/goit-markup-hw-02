@@ -37,9 +37,7 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.header {
-  font-style: normal;
-}
+
 .header-logo-studio {
   color: #2e2f42;
   font-family: Raleway;
@@ -56,9 +54,7 @@
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
 }
-.header-navigation {
-  font-style: normal;
-}
+
 .header-menu-link:hover {
   color: #404bbf;
 }
