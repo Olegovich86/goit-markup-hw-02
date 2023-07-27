@@ -96,7 +96,6 @@
 }
 .hero-button {
   color: #fff;
-  cursor: pointer;
   background: #4d5ae5;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -124,7 +123,6 @@
 }
 .section-title {
   font-size: 36px;
-  font-style: normal;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -167,7 +165,6 @@
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
-  font-style: normal;
   font-weight: 800;
   line-height: 1.17;
   letter-spacing: 0.54px;
@@ -177,7 +174,6 @@
   color: #f4f4fd;
   font-family: Raleway;
   font-size: 18px;
-  font-style: normal;
   font-weight: 800;
   line-height: 1.16;
   letter-spacing: 0.54px;
@@ -186,7 +182,6 @@
 .footer-text {
   color: #f4f4fd;
   font-size: 16px;
-  font-weight: 400;
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
 }
@@ -237,8 +232,6 @@
 .info-next-link {
   color: #434455;
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-
