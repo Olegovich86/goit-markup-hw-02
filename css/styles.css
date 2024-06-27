@@ -1,10 +1,9 @@
-body{
+body {
     font-family: "Roboto", sans-serif; 
 }
 
 /* Header */
-
-.header-logo{
+.header-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -14,7 +13,7 @@ body{
     color: #2e2f42;
 }
 
-.header-logo-italic{
+.header-logo-color {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -24,7 +23,7 @@ body{
     color: #4d5ae5;
 }
 
-.header-menu-item{
+.header-menu-item {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -32,12 +31,44 @@ body{
     color: #2e2f42;
 }
 
-.header-address-menu{
-    font-weight: 400;
+.header-address-menu {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
+/* --------------------- */
 
 /* Main */
+
+/* Section hero */
+.hero {
+    background: #2e2f42;
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07143;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-button {
+    background: #4d5ae5;
+}
+
+/* Section work */
+
+/* Section team */
+
+.team{
+    background: #f4f4fd;
+}
+
+/* Section portfolio */
+/* --------------------- */
+
+/* Section footer */
+
