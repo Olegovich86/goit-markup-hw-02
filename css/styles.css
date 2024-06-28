@@ -1,6 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: #434455;
+  background-color: #ffffff;
 }
 
 ul {
@@ -133,15 +133,16 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  background-color: #4d5ae5;
   color: #fff;
 }
 
 .hero-button:hover {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 
 hero-button:focus {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 
 /*-------------- Section work---------------- */
