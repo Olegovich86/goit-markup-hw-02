@@ -1,6 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
-  background: #fff;
+  color: #434455;
 }
 
 ul {
@@ -30,7 +30,7 @@ button {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae5;
 }
 
 .header-logo-color {
@@ -40,7 +40,7 @@ button {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 
 .header-menu-list {
@@ -62,7 +62,16 @@ button {
   color: #2e2f42;
 }
 
+.header-menu-link:hover {
+  color: #404bbf;
+}
+
+.header-menu-link:focus {
+  color: #404bbf;
+}
+
 .header-address {
+  font-style: normal;
 }
 
 .header-address-menu {
@@ -88,6 +97,11 @@ button {
   color: #404bbf;
 }
 
+.header-address-link:focus,
+.header-address-tel {
+  color: #404bbf;
+}
+
 .header-address-tel {
   font-weight: 400;
   font-size: 16px;
@@ -108,13 +122,26 @@ button {
 .hero-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   color: #fff;
+  text-align: center;
 }
 
 .hero-button {
-  background: #4d5ae5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.hero-button:hover {
+  color: #404bbf;
+}
+
+hero-button:focus {
+  color: #404bbf;
 }
 
 /*-------------- Section work---------------- */
@@ -154,12 +181,15 @@ button {
   line-height: 1.11;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align: center;
+  text-transform: capitalize;
 }
 
 .team-menu {
 }
 
 .team-menu-list {
+  background-color: #ffffff;
 }
 
 .team-menu-img {
@@ -190,6 +220,8 @@ button {
   line-height: 1.11;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align: center;
+  text-transform: capitalize;
 }
 
 .portfolio-menu {
@@ -226,11 +258,13 @@ button {
 }
 
 .footer-logo {
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color: #f4f4fd;
+  text-transform: uppercase;
+  color: #4d5ae5;
 }
 
 .footer-logo-color {
@@ -238,7 +272,7 @@ button {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color: #4d5ae5;
+  color: #f4f4fd;
 }
 
 .footer-text {
