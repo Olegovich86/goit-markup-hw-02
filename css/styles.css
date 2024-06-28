@@ -142,7 +142,7 @@ button {
   background-color: #404bbf;
 }
 
-hero-button:focus {
+.hero-button:focus {
   background-color: #404bbf;
 }
 
